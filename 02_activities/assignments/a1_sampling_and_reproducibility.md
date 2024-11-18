@@ -10,10 +10,36 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Brian Ngo
 
 ```
-Please write your explanation here...
+The model breaks sampling into the intital infection, primary contact tracing, and then secondary contact tracing.
+
+For the inital infection,
+    the function used was np.random.choice
+    the sampling size was determined by the code:
+        size=int(len(ppl) * ATTACK_RATE)
+    the sampling frame was the list of all indices of all rows in the 'ppl' DataFrame
+        which included 200 wedding attendees and 800 brunch atteendees for a total of 1000 individuals
+    with the underlying distribution being uniform, where any individual had an equal chance of being selected
+
+For the primary contact tracing,
+ ppl.loc[ppl['infected'], 'traced'] = np.random.rand(sum(ppl['infected'])) < TRACE_SUCCESS
+    the function used was np.random.choice
+    Since TRACE_SUCCESS = 0.20, this meant that each infected individual had a independent probability of being traced by 20%
+    Since ATTACK_RATE = 0.10 and len(ppl) = 1000, then the sample size is 100, representing the total number of individuals infected initally
+    Sampling Frame would be rows in the the 'ppl' DataFrame where 'infected' is 'True'
+
+For the secondary contact tracing,
+    SECONDARY_TRACE_THRESHOLD = 2 means that secondary contact tracing occurs when 2 individuals were successfully traced in primary contact at a specific event. If the number of primacy contact traced infected individuals from an event meets the SECONDARY_TRACE_THRESHOLD, then all infected individuals at that event become traced during secondary tracing
+
+The code does NOT appear to reproduce the graphs from the original blog post. 
+After changing the simulation to 1000, and running the script multiple times, the outputted graphs varied each time. This would make it difficult to reproduce and identify subtle changes or trends. 
+
+To make the model reproducible, I added to the code:
+np.random.seed(42)
+This will ensure that the output is the same everytime that the code is executed. Without a fixed random seed, the functions np.random.rand and np.random.choice would slightly vary each time.
+
 
 ```
 

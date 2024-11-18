@@ -16,6 +16,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
+SIMULATIONS = 1000
 
 def simulate_event(m):
   """
@@ -39,6 +40,9 @@ def simulate_event(m):
       'infected': False,
       'traced': np.nan  # Initially setting traced status as NaN
   })
+
+  # Set random seed for reproducibility
+  np.random.seed(42)
 
   # Explicitly set 'traced' column to nullable boolean type
   ppl['traced'] = ppl['traced'].astype(pd.BooleanDtype())
@@ -68,7 +72,7 @@ def simulate_event(m):
   return p_wedding_infections, p_wedding_traces
 
 # Run the simulation 50000 times
-results = [simulate_event(m) for m in range(50000)]
+results = [simulate_event(m) for m in range(SIMULATIONS)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
