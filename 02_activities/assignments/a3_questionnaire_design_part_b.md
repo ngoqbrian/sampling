@@ -4,7 +4,11 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    Yes, we expect the sample to be representative of our target population because we are using a stratifed sampling method for all eligble voters.
+    Our target population was all eligible voters across Canada, 
+
+
+
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
@@ -16,7 +20,10 @@
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+    No, the purpose of our survey could NOT have been fulfilled through an observaitonal study. 
+    This is due to the survey being able to gather opinions and preferences from our voters directly through questions. 
+    Having a structure method of obtaining subjective data directly, allows us to understand the voters' opinions and create insights.
+    An observational study would NOT be able to provide insights into the voters' preferences or opinions because observational studies are focused on observing patterns and trends.
     ```
 
 ## Why am I doing this assignment?
