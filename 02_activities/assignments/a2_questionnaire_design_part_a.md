@@ -38,9 +38,10 @@ In this scenario, the sampling and observation units are the same.
 The key difference in other cases is that sampling units are part of the selection process (selected from the sampling frame), while observation units are part of the measurement process (which the data is gathered directly from).
 ```
 
-Sampling Strategy
+Sampling Strategy:
 ```
 Stratified Sampling - will ensure representation of diverse voters and help for gathering insights based on different strata/voter groups, thereby allowing for refinement on campaign strategy as needed
+The strata groups for this survey will be by Region, Age Group, and Income Level. Each of these demographics can greatly influence a voter's preference and behaviour.
 ```
 
 Your 5-10 question survey:
