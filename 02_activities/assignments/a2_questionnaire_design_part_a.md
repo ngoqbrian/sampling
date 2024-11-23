@@ -16,30 +16,92 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 2 - Canadian Federal Election
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of our survey is to understand the voter's priorities, concerns, and expectations from our political party and its leader. 
+This will allow us to refine our campaign strategy and target specific voter groups in order to maintain our lead and win the election. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Eligible voters across Canada for the federal election
+
+Sampling Frame: List of registered voters
+
+Sampling Units: Individual voters - each voter from the list of registered voters
+
+Observational Units: Individual voters - each voter when they provide a survey response
+
+In this scenario, the sampling and observation units are the same. 
+The key difference in other cases is that sampling units are part of the selection process (selected from the sampling frame), while observation units are part of the measurement process (which the data is gathered directly from).
+```
+
+Sampling Strategy:
+```
+Stratified Sampling - will ensure representation of diverse voters and help for gathering insights based on different strata/voter groups, thereby allowing for refinement on campaign strategy as needed
+The strata groups for this survey will be by Region, Age Group, and Income Level. Each of these demographics can greatly influence a voter's preference and behaviour.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age group?
+ 18-24
+ 25-34
+ 35-44
+ 45-54
+ 55-64
+ 65+
+
+2. Which Province/Territory do you live in?
+Alberta
+British Columbia
+Manitoba
+New Brunswick
+Newfoundland and Labrador
+Northwest Territories
+Nova Scotia
+Nunavut
+Ontario
+Prince Edward Island
+Quebec
+Saskatchewan
+Yukon
+
+3. What is your annual household income?
+Under $30,000
+$30,000 - $60,000
+$60,000 - $100,000
+$100,000 - $150,000
+Over $150,000
+
+4. Does our political parties policy agenda support your interests?
+Yes
+Neutral
+No (Please Explain):_________
+
+5. Which issue do you feel our political party addresses well?
+Economy
+Healthcare
+Education
+Housing
+
+6. Which issue do you feel our political party addresses poorly?
+Economy
+Healthcare
+Education
+Housing
+
+7. How likely are you to vote for our political party in the upcoming election?
+Very Unlikely
+Unlikely
+Neutral
+Likely
+Very Likely
+
+8. Please share any additional comments or suggestions you have for our political party:
+________________________
 ```
 
 ## Rubric
