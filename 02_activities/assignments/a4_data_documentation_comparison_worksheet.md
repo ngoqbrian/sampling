@@ -8,9 +8,8 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 |----------------|:--------------------|----------------|---------------------|
 | Sample type                                           | Probability Sample                                                                                           |                                             |                                                                                             |
 | Sample size                                           | 20,000                                                                                           |                                             |                                                                                             |
-| Target population                                     | All persons 15 years of age and older in Canada, excluding:
-1. Residents of the Yukon, Northwest Territories, and Nunavut;
-2. Full-time residents of institutions.                                                                                         |                                             |                                                                                             |
+| Target population                                     | All persons 15 years of age and older in Canada, excluding: Residents of the Yukon, Northwest Terrioritories, and Nunavut; and Full time residents of institutions
+                                                                                         |                                             |                                                                                             |
 | Sampling frame                                        | Lists of telephone numbers in use (both landline and cellular) available to Statistics Canada
  The Address Register (AR): List of all dwellings within the ten provinces                                                                                          |                                             |                                                                                             |
 | Survey mode(s)                                        | rEQ - respondent completed electronic questionnaire
