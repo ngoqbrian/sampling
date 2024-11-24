@@ -19,7 +19,7 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 | Sources of error                                      |                                                                                            |                                             |                                                                                             |
 | Limitations, known biases                             |                                                                                            |                                             |                                                                                             |
 | Citation                                              |                                                                                            |                                             |                                                                                             |
-| Links to any documentation or additional sources used |                                                                                            |                                             |                                                                                             |
+| Links to any documentation or additional sources used |  https://www150.statcan.gc.ca/n1/pub/45-25-0001/index-eng.htm#a5                                                                                          | https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DUS88V                                            |  https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2435.12192                                                                                        |
 
 ## Criteria
 
